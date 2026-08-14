@@ -9,15 +9,15 @@ on:
       kernel_repo:
         description: 'Kernel repository to build'
         required: true
-        default: 'Mayuri-Chan/android_kernel_xiaomi_gale'
-      kernel_branch:
+        default: 'asagimutsuki388-code/hydrogen_kernel_xiaomi_selene'
+      kernel_branch: 'Hydrogen'
         description: 'Kernel branch to build'
         required: true
         default: 'stable'
       kernel_defconfig:
         description: 'defconfig to build the kernel'
         required: true
-        default: 'gale_defconfig'
+        default: 'selene_defconfig'
       kernel_img:
         description: 'Kernel image name'
         required: false
