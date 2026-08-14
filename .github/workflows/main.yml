@@ -10,10 +10,10 @@ on:
         description: 'Kernel repository to build'
         required: true
         default: 'asagimutsuki388-code/hydrogen_kernel_xiaomi_selene'
-      kernel_branch: 'Hydrogen'
+      kernel_branch:
         description: 'Kernel branch to build'
         required: true
-        default: 'stable'
+        default: 'Hydrogen'
       kernel_defconfig:
         description: 'defconfig to build the kernel'
         required: true
